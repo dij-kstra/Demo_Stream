@@ -1,8 +1,10 @@
-import gradio as gr
+# import gradio as gr
 
-def greet(name):
-    return "Hello " + name + "!"
+# def greet(name):
+#     return "Hello " + name + "!"
 
-demo = gr.Interface(fn=greet, inputs="text", outputs="text")
+# demo = gr.Interface(fn=greet, inputs="text", outputs="text")
     
-demo.launch()  
+# demo.launch()  
+
+print("hello-world")
