@@ -1,10 +1,12 @@
-# import gradio as gr
+!pip install gradio
 
-# def greet(name):
-#     return "Hello " + name + "!"
+import gradio as gr
 
-# demo = gr.Interface(fn=greet, inputs="text", outputs="text")
+def greet(name):
+    return "Hello " + name + "!"
+
+demo = gr.Interface(fn=greet, inputs="text", outputs="text")
     
-# demo.launch()  
+demo.launch()  
 
-print("hello-world")
+#print("hello-world")
