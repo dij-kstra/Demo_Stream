@@ -11,7 +11,7 @@
 
 #print("hello-world")
 
-!pip install streamlit
+#!pip install streamlit
 
 #Import Streamlit
 import streamlit as st
