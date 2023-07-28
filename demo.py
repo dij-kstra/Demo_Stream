@@ -25,7 +25,9 @@ import numpy as np
 # from sklearn.preprocessing import StandardScaler
 
 # Title of the dashboard
-st.title("Streamlit Dashboard for Model Training")
+st.title("hii dear, I have started")
+
+st.write("You can talk now")
 
 #User uploading feature for input csv file
 st.write("Upload your dataset (CSV file format)")
