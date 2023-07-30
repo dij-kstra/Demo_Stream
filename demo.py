@@ -18,7 +18,7 @@ st.write("You can talk now")
 st.write("Upload your dataset (CSV file format)")
 file = st.file_uploader("", type="csv")
 
-read the csv file and display the dataframe
+#read the csv file and display the dataframe
 if file is not None:
     data = pd.read_csv(file)
     st.write("Preview of the uploaded dataset:")
