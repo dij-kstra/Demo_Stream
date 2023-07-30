@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler
 
-Title of the dashboard
+#Title of the dashboard
 st.title("hii dear, I have started")
 
 st.write("You can talk now")
