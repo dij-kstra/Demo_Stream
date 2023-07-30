@@ -1,18 +1,3 @@
-# !pip install gradio
-
-# import gradio as gr
-
-# def greet(name):
-#     return "Hello " + name + "!"
-
-# demo = gr.Interface(fn=greet, inputs="text", outputs="text")
-    
-# demo.launch()  
-
-#print("hello-world")
-
-#!pip install streamlit
-
 #Import Streamlit
 import streamlit as st
 #Other imports
